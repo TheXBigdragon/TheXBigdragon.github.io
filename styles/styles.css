@@ -6,3 +6,19 @@ main, header {
   margin: auto;
   text-align: left;
 }
+.catalog-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.catalog-item{
+    width: calc(33% - 24px);
+    background: pink;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.catalog-item img{
+    max-width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
