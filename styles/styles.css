@@ -1,24 +1,50 @@
 body{
   text-align: center;
+    background: #FFFF;
+    
+}
+header {
+    background-image: url("../img/epicslogo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:200px;
 }
 main, header {
   max-width: 960px;
   margin: auto;
   text-align: left;
+     
 }
-.catalog-list{
-    display: flex;
-    flex-wrap: wrap;
+main {
+    background: #f5f4ed;
+}
+/* Catalog */
+@media screen and (min-width: 640px) {
+    .catalog-list {
+        align-items: center
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content:center;
 }
 .catalog-item{
     width: calc(33% - 24px);
-    background: pink;
+    background: #707070;
     margin: 10px;
     border: 2px solid black;
-    border-radius: 12px;
+    border-radius: 5px;
+    
 }
 .catalog-item img{
     max-width: 100%;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
+    span {
+    padding: 10px;
+    background: #f5f4ed;
+    display: flex;
+    border-radius:5px;
+    }
+
+    
+    
