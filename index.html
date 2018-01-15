@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="fight-container">
-                  <div>
+                  <div class="first">
                     <img src="img/guillaume.jpg" property="image1" alt="image">
                     <button class="button" property="votes1" mv-clicked data-fight="fight[$index]" onclick="document.querySelector('#'+this.dataset.fight).classList.toggle('already-voted');"> Votez pour cette image </button>
                     <div class="result">
@@ -41,7 +41,7 @@
                         <span class="vote1">[votes1]votes</span>
                     </div>
                   </div>
-                  <div>
+                  <div class="second">
                     <img src="img/bastien.jpg" property="image2" alt="image">
                     <button class="button" property="votes2" mv-clicked data-fight="fight[$index]" onclick="document.querySelector('#'+this.dataset.fight).classList.toggle('already-voted');"> Votez pour cette image </button>
                     <div class="result">

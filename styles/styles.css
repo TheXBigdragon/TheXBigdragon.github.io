@@ -47,8 +47,16 @@ main {
     }
 
 .fight-container {
-  display: flex;
+    display: flex;
+    flex: nowrap;
+    justify-content: space-between;
+    
 }
+    .fight-container .first,
+    .fight-container .second {
+        width: calc(50% - 10px)
+    } 
+    
 .result,
 .already-voted .button {
   display: none;
