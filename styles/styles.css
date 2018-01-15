@@ -21,7 +21,7 @@ main {
 /* Catalog */
 @media screen and (min-width: 640px) {
     .catalog-list {
-        align-items: center
+        align-items: center;
         display: flex;
         flex-wrap: nowrap;
         justify-content:center;
