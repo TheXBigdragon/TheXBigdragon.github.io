@@ -18,24 +18,33 @@
 <body>
 
     <header>
-        <h1>Conférence</h1>
+        <h1>E-Pics Fight</h1>
     </header>
 
     <main mv-app="confln3" mv-storage="http://github.com/thexbigdragon/">
 
         <div class="catalog-list">
-            <article class="catalog-item" mv-multiple property="conference">
-                <img src="img/guillaume.jpg" property="image" alt="image">
-                <h2 class="catalog-title" property="titre">Wireframe</h2>
-                <span class="catalog-datetime" property="date">Jeudi 1813h</span>
+            <article class="catalog-item" mv-multiple property="fight">
+                 <div class="profile-card">
+                    <img src="img/txb.jpg" class="profile-figure" property="Profile pic">
+                    <span class="profile-name" property="Pseudo">TheXBigdragon</span>
                 <br>
-                <span class="catalog-location" property="lieu">E-Nov Campus</span>
-                <p class="catalog-summary" property="decription">Le Wireframe est un outil important pour la conception et le développement de produits.</p>
-                <div class="profile-card">
-                    <img src="img/" class="profile-figure">
-                    <span class="profile-name" property="animateur">Guillaume Rudin</span>
+                <img src="img/guillaume.jpg" property="image1" alt="image">
+                     <button property="votes1" mv-clicked> Votez pour cette image </button>
+                <img src="img/bastien.jpg" property="image2" alt="image">
+                     <button property="votes2" mv-clicked> Votez pour cette image </button>
+                <br>
+                <article class=resultats1>
+                     <span class="%vote1">[sum(votes1/(votes1+votes2)*100)]%</span>
+                    <br>
+                    <span class="vote1">[votes1]votes</span>
+                </article>
+                <article class=resultats2>
+                     <span class="%vote2">[sum(votes2/(votes1+votes2)*100)]%</span>
+                    <br>
+                    <span class="vote2">[votes2]votes</span>
+                </article>
                 </div>
-                <a href="#">+</a>
             </article>
         </div>
     </main>
