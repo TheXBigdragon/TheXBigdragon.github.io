@@ -52,8 +52,11 @@ main {
     justify-content: space-between;
     
 }
-    .fight-container .first,
-    .fight-container .second {
+    .profile-figure{
+        width: 60px;
+        border-radius: 30px;
+    }
+    .imagevote {
         width: calc(50% - 10px)
     } 
     

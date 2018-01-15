@@ -33,7 +33,7 @@
 
                 <div class="fight-container">
                   <div class="first">
-                    <img src="img/guillaume.jpg" property="image1" alt="image">
+                    <img src="img/guillaume.jpg" class="imagevote" property="image1" alt="image">
                     <button class="button" property="votes1" mv-clicked data-fight="fight[$index]" onclick="document.querySelector('#'+this.dataset.fight).classList.toggle('already-voted');"> Votez pour cette image </button>
                     <div class="result">
                         <span class="%vote1">[sum(votes1/(votes1+votes2)*100)]%</span>
@@ -42,7 +42,7 @@
                     </div>
                   </div>
                   <div class="second">
-                    <img src="img/bastien.jpg" property="image2" alt="image">
+                    <img src="img/bastien.jpg" class="imagevote" property="image2" alt="image">
                     <button class="button" property="votes2" mv-clicked data-fight="fight[$index]" onclick="document.querySelector('#'+this.dataset.fight).classList.toggle('already-voted');"> Votez pour cette image </button>
                     <div class="result">
                       <span class="%vote2">[sum(votes2/(votes1+votes2)*100)]%</span>
