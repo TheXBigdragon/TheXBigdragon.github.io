@@ -1,7 +1,7 @@
 body{
   text-align: center;
     background: #FFFF;
-    
+
 }
 header {
     background-image: url("../img/epicslogo.jpg");
@@ -13,7 +13,7 @@ main, header {
   max-width: 960px;
   margin: auto;
   text-align: left;
-     
+
 }
 main {
     background: #f5f4ed;
@@ -32,7 +32,7 @@ main {
     margin: 10px;
     border: 2px solid black;
     border-radius: 5px;
-    
+
 }
 .catalog-item img{
     max-width: 100%;
@@ -46,5 +46,13 @@ main {
     border-radius:5px;
     }
 
-    
-    
+.fight-container {
+  display: flex;
+}
+.result,
+.already-voted .button {
+  display: none;
+}
+.already-voted .result {
+  display: block;
+}
